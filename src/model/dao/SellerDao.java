@@ -8,8 +8,8 @@ import model.entities.Seller;
 public interface SellerDao {
 
 	void insert(Seller obj);
-	void update(Department obj);
+	void update(Seller obj);
 	void deletById(Integer id);
-	Department findById(Integer id);
-	List<Department> findAll();
+	Seller findById(Integer id);
+	List<Seller> findAll();
 }
